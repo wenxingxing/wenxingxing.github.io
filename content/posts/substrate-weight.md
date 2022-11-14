@@ -1,7 +1,7 @@
 ---
 title: "Substrate Weight"
 date: 2022-11-12T14:55:04+08:00
-draft: true
+draft: false
 ---
 
 ## blockchain has limited resource
