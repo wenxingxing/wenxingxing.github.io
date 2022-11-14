@@ -4,7 +4,7 @@ date: 2022-11-13T11:32:43+08:00
 draft: false
 ---
 
-I used to think sleep is a waste of time, but sleep is just as productive and important as we do throughout the day.
+I used to think sleeping is a waste of time, but sleeping is just as productive and important as we do throughout the day.
 
 > If you are going to be successfull, you got be willing to give up sleep. -Eric Thomas, from his [speech](https://youtu.be/6vuetQSwFW8?t=194)
 
