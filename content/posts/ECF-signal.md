@@ -73,9 +73,9 @@ Sigprocmask(SIG_SETMASK, &prev_mask, NULL);
 - ... refer to the slides
 
 
-... as I don't write signal handlers, I skiped the following content.
+... as I don't write signal handlers, I skipped the following content.
 
 ## Summary
 To wrap up, signals for a process is just an id, receiving a signal is the event that the kernel force to change the execution path and pass control to the signal handler.
 
-A process can intall signal handler by calling the `signal` function. Blocking signals is done by calling `sigprocmask`, which will ignore signals if called.
+A process can install signal handler by calling the `signal` function. Blocking signals is done by calling `sigprocmask`, which will ignore signals if called.

@@ -16,7 +16,7 @@ draft: false
   - ...
 
 ## Exceptional Control Flow
-- ubiquitous at all level of compuer system
+- ubiquitous at all level of computer system
 
 
 ### Asynchronous Exceptions (Interrupts)
@@ -50,11 +50,11 @@ provides two abstractions:
   - by *context switch*
 - Private address space
   - seems to have exclusive use of the memory
-  - by *virual memory*
+  - by *virtual memory*
 
 ### `fork` example
 
-fork runs in the *kernel*, it copys every things in the process, including code and data, opened file descriptors, and start a new process.
+fork runs in the *kernel*, it copy every things in the process, including code and data, opened file descriptors, and start a new process.
 
 fork call once and return *twice*, one in the parent process, one in the child process.
 

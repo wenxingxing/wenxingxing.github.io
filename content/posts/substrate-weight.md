@@ -8,10 +8,10 @@ draft: false
 
 - limited window per producer
 - limited amount of data per block: `MaximumBlockLength`
-- given `MaximumBlockWeight` and weight of extrinsic in the tx pool, we select the set of extrinsic to sautrate the block, while not exceeding the limit
+- given `MaximumBlockWeight` and weight of extrinsic in the tx pool, we select the set of extrinsic to saturate the block, while not exceeding the limit
 
-weight system for developer to tell the block production process how **hevey** an extrinsic is
-
+weight system for developer to tell the block production process how **heavy** an extrinsic is
+e
 ## Fees
 
 ```

@@ -21,7 +21,7 @@ draft: false
 - ELF header
 - Segment header table
 - .text: should be `.code`, named for historical reason
-- .rodata: read only data, seprating the HEAP into two parts.
+- .rodata: read only data, separating the HEAP into two parts.
 - .data: initialized global data
 - .bss: *block starting symbol*, un-initialized global(static) data, 
 - .symtab: symbol table
@@ -34,7 +34,7 @@ draft: false
 
 - Global: non-`static` func & var
 - External: refer symbols defined in other modules
-- Local: `static` var & func, C's `private`, infomation hiding, abstration
+- Local: `static` var & func, C's `private`, information hiding, abstraction
 
 ## Linking
 
@@ -42,7 +42,7 @@ draft: false
 find where is the symbol we're referencing
 
 - Local Symbols
-    - Local **non-static** C var vs locl **static** var
+    - Local **non-static** C var vs local **static** var
         - non-static: stored on the stack
         - ~ : stored in either `.bss` or `.data`
 
@@ -63,10 +63,10 @@ find where is the symbol we're referencing
 
 ## Shared lib
 
-- if lib updated, no need to rebuild all the binary referencing it, saving sapce too
+- if lib updated, no need to rebuild all the binary referencing it, saving space too
 - link at load time
 - runtime link `dlopen`
-- at run time, they are loaded in the middle the **HEAP** space, seprating the HEAP into two parts.
+- at run time, they are loaded in the middle the **HEAP** space, separating the HEAP into two parts.
 
 ## Interpositioning
 
