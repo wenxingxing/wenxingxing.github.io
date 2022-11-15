@@ -56,10 +56,10 @@ Virtual Address: [Virtual page number (VPN)] [Virtual page offset (VPO)]
 
 VPN => index into page table => maps to physical page number (PPN)
 
-VPO => maps into Pyhsical page offset
+VPO => maps into Physical page offset
 
 
-Pyhsical address: [Physical page number (PPN)] [Physical page offset (PPO)]
+Physical address: [Physical page number (PPN)] [Physical page offset (PPO)]
 ```
 
 In short, VPN => Index to Page table => PPN
@@ -85,7 +85,7 @@ In this way we decrease the total amount of pages tables we need to use.
 
 ## Locality
 
-Because of locality, the overhead of multi-level page table is negligible, because a single entry of level-1 page table covers a *huge amout of memory space*.
+Because of locality, the overhead of multi-level page table is negligible, because a single entry of level-1 page table covers a *huge amount of memory space*.
 
 ## TLB, **Translation Lookaside Buffer**
 
