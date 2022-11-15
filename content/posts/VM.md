@@ -1,7 +1,7 @@
 ---
 title: "ICS-CMU Notes: Lec 17 Virtual Memory"
 date: 2022-11-15T13:36:16+08:00
-draft: true
+draft: false
 ---
 
 ## Why Virtual Memory
