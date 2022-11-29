@@ -22,6 +22,20 @@ fn main {
 }
 ```
 
+1. Every reference must be valid, no dangling reference is possible.
+2. Immutable reference **must not** be changed anywhere in it's lifetime.
+
+```
+a: T = ...;
+x: &T = &a;
+y: &mut T = &mut a;
+
+// x's life time stops here, or x can't be used after y is declared.
+// becase after y is declared, we can't promise `a` is unchanged.
+
+println!("{}", x); // compiler error
+```
+
 
 ## Explicitly annotating lifetime
 
