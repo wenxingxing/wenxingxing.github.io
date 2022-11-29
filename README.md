@@ -1,3 +1,3 @@
-# my notebook
+## my blog
 
-some notes
+Some notes.
