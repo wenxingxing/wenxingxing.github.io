@@ -10,13 +10,14 @@ draft: false
 
 一顿Google之后，使用了以下解决方案：
 
-1. OpenClash不要使用`本地DNS劫持`
-2. 使用`AdGuardHome`和`SmartDNS`, 拓扑如下:
+1. 使用`AdGuardHome`和`SmartDNS`, 拓扑如下:
 ```
-dnsmasq:53 -> AdGuardHome -> SmartDNS
-[no cache]                   [with cache]
+OpenClash (hijack dnsmasq) -> AdGuardHome:5553 -> SmartDNS:6053
+[no cache]                                        [with cache]
 ```
+
+这样既可以使用OpenClash的分流，也能使用AGH和SmartDNS的功能。
 
 使用以后明显感觉浏览速度快了不少，也能正常访问`linkedin.com`了。
 
-目前出现了一个问题, `*.cn`全部都会解析成`127.0.0.1`...
+--目前出现了一个问题, `*.cn`全部都会解析成`127.0.0.1`...,--, 尝试清理本地cache: `resolvectl flush-caches`
