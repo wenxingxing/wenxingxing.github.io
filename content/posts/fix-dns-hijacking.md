@@ -18,3 +18,5 @@ dnsmasq:53 -> AdGuardHome -> SmartDNS
 ```
 
 使用以后明显感觉浏览速度快了不少，也能正常访问`linkedin.com`了。
+
+目前出现了一个问题, `*.cn`全部都会解析成`127.0.0.1`...
