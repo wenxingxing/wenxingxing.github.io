@@ -27,4 +27,3 @@ Client
 
 使用了一段时间，还是会间歇性地跳到`linkedin.com`, 有空试试`mosdns`
 
-~~x~~
