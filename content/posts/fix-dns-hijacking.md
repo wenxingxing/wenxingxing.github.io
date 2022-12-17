@@ -23,6 +23,8 @@ Client
 
 使用以后明显感觉浏览速度快了不少，也能正常访问`linkedin.com`了。
 
---目前出现了一个问题, `*.cn`全部都会解析成`127.0.0.1`...,--, 尝试清理本地cache: `resolvectl flush-caches`
+~~目前出现了一个问题, `*.cn`全部都会解析成`127.0.0.1`...~~, 尝试清理本地cache: `resolvectl flush-caches`
 
 使用了一段时间，还是会间歇性地跳到`linkedin.com`, 有空试试`mosdns`
+
+~~x~~
